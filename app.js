@@ -1,37 +1,3 @@
-// let scoreHome = document.getElementById("score-home");
-// let score = 0;
-// function add1() {
-//     score = score+1
-//     scoreHome.textContent = score;
-// }
-
-// function add2() {
-//     score += 2
-//     scoreHome.textContent = score;
-// }
-
-// function add3() {
-//     score += 3
-//     scoreHome.textContent = score;
-// }
-
-// let scoreGuest = document.getElementById("score-guest")
-// let scores = 0
-// function add11() {
-//     scores += 1
-//     scoreGuest.textContent = scores;
-// }
-
-// function add22() {
-//     scores += 2
-//     scoreGuest.textContent = scores;
-// }
-
-// function add33() {
-//     scores += 3
-//     scoreGuest.textContent = scores;
-// }
-
 let scoreHome = document.getElementById("score-home");
 let scoreGuest = document.getElementById("score-guest");
 
