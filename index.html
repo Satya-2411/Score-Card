@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ScoreCard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="score-container">
+            <h1>Home</h1>
+            <div id="score-card">
+                <p id="score-home" class="score-style"></p>
+            </div>
+            <button onclick="addScore('home', 1)">+1</button>
+            <button onclick="addScore('home', 2)">+2</button>
+            <button onclick="addScore('home', 3)">+3</button>
+        </div>
+        <div class="score-container">
+            <h1>Guest</h1>
+            <div id="score-card">
+                <p id="score-guest" class="score-style"></p>
+            </div>
+            <button onclick="addScore('guest', 1)">+1</button>
+            <button onclick="addScore('guest', 2)">+2</button>
+            <button onclick="addScore('guest', 3)">+3</button>
+        </div>
+    </div>
+    <button id="reset-btn" onclick="reset()">Reset</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

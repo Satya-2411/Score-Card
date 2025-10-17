@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    background-color: #003262;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score-container {
+    text-align: center;
+}
+
+#score-card {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-style {
+    font-size: 50px;
+    margin: 0;
+    color: red;
+}
+
+#reset-btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: larger;
+}
